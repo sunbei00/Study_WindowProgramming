@@ -33,7 +33,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	wndclass.cbClsExtra = 0; // 여분 메모리(0 바이트)
 	wndclass.cbWndExtra = 0; // 여분 메모리 (0 바이트)
 	wndclass.hInstance = hInstance; // 인스턴스(같은 프로그램에서 프로세스 구분하기 위한) 핸들
-	wndclass.hIcon = LoadIcon(NULL, IDI_WINLOGO); // 아이콘 모양, IDI 예상 : Id Default Icon 
+	wndclass.hIcon = LoadIcon(NULL, IDI_WINLOGO); // 아이콘 모양, IDI 예상 : ID Icon 
 	// IDI_APPLICATION : 기본 어플리케이션 아이콘
 	// IDI_INFORMATION : 별표 아이콘
 	// IDI_ASTERISK : IDI_INFORMATION과 비슷함
@@ -43,7 +43,7 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 	// IDI_EXCLAMATION : IDI_WARNNING과 유사
 	// IDI_QUESTION : 질문 마크 아이콘
 	// IDI_WINLOGO : 윈도우 로고
-	wndclass.hCursor = LoadCursorW(NULL, IDC_ARROW); // 커서 모양, IDC 예상 : Id Default Cusor
+	wndclass.hCursor = LoadCursorW(NULL, IDC_ARROW); // 커서 모양, IDC 예상 : ID Cusor
 	// IDC_APPSTARTING : 표준, 화살표, 작은 모래시계
 	// IDC_ARROW : 표준 화살표
 	// ICD_CROSS : 십자가, 과녁
